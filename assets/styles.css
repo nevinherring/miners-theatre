@@ -1,0 +1,147 @@
+body {
+  font-family: Lato;
+}
+section#hero {
+  background-image:url('../assets/img/chairs-behind.jpg');
+  height: 725px;
+  position: relative;
+  opacity: 0.80;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: blue;
+}
+
+#hero h1{
+  font-size: 10em;
+  width: 100%;
+  text-align: center;
+  border: 5px solid #fff;
+  display: inline;
+}
+
+#hero p {
+  color: #000;
+}
+
+section#hero div.title {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+
+}
+
+section#hero div.title h1 {
+  color: #fff;
+  padding: 18px;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+/* check before production */
+
+section#about {
+  margin: 2em 0;
+}
+
+section#about div.about-left img {
+  width: 90%;
+}
+
+section#gallery {
+  margin: 2em 0;
+}
+
+section#gallery img {
+  width: 100%;
+  margin: 1em 0;
+}
+/* check prior to release end */
+#events {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: left;
+  margin-top: 40px;
+}
+
+#events p{
+  font-size: 1.5em;
+  color: #000;
+}
+
+#events h3 {
+
+}
+/* end of events */
+
+/* gallery */
+section#gallery img {
+  width: 100%;
+  margin: 1em 0;
+}
+/* end of gallery */
+
+/* logo  */
+section#logo {
+  height: 30em;
+}
+
+section#logo .important-left {
+  padding-top: 7em;
+ }
+
+#logo img {
+  height: 25em;
+  padding-left: 5em;
+}
+
+
+
+/* logo  */
+/* footer */
+footer{
+  height: 5em;
+}
+/* end of footer */
+/* turn off border at phone view */
+
+@media (max-width: 900px){
+  section#logo{
+    height: 30em;
+  }
+
+  #logo img {
+    padding-left: 0;
+  }
+
+}
+
+
+
+@media (max-width: 576px) {
+  section#hero div.title h1 {
+    color: #fff;
+    padding: 18px;
+    font-size: 1.5em;
+    letter-spacing: .25em;
+  }
+
+
+section#logo{
+  height: 42em;
+}
+
+#logo .important-left {
+  padding-top: 1em;
+}
+
+#logo img {
+  padding-left: 0;
+}
+
+ footer{
+   height: 3em;
+ }
+}
